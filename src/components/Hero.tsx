@@ -60,8 +60,9 @@ const Hero = () => {
               {/* Reduced Image Size */}
               <div className="w-72 h-72 bg-accent rounded-full p-1">
                 <div className="w-full h-full bg-primary rounded-full flex items-center justify-center overflow-hidden">
+                  {/* Updated image path to avtar.png in public root */}
                   <img
-                    src="/public/screenshot_2025-12-22_at_5.30.39_pm.png"
+                    src="/avtar.png"
                     alt="Sujal Rathore"
                     className="w-full h-full object-cover object-top scale-100"
                   />
